@@ -1,10 +1,62 @@
+@font-face {
+    font-family: "title";
+    src: url(./fuentes/BebasNeue-Regular.ttf);
+}
+
 .BarraSup{
-    
-    
-    text-align: center;
-    font-size: 30px;
-    
+    font-family: "title";
+    height: 70px;
+  
+}
+table{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* hay fuentes predeterminadas en el editor de código, por lo que no es necesario estar subiendolas el 100% de las veces */
+}
+
+.barrasub th{
+    font-family: "title";
+    font-size: 20px;
+    font-weight: 300;
 }
 .BarraSup th{
     border: 2px black solid;
+    text-align: center;
+    font-size: 40px;
+    line-height:20px;
+    font-weight:400;
+    /* Las propiedades de fuentes contienen el estilo de la letra (font-family), el tamaño de la letra (font-size), su grosor con (font-weight) */
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+.habilidad{
+    width: 180px;
+}
+
+.tiempo{
+    width: 130px;
+}
+
+.calificación{
+    width: 180px;
+}
+
+.utilidad{
+    width: 130px;
+}
+
+.comentario{
+    width: 500px;
+}
+
+th {
+    height: 50px;
+}
+
+.habilidad1{
+    height: 50px;
 }
