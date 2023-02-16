@@ -6,6 +6,9 @@
 .BarraSup{
     font-family: "title";
     height: 70px;
+    background-color: rgba(18, 68, 161, 0.275);
+    color: rgb(37, 26, 26);
+    /* las propiedades de colores permiten modificar los colores de textos, bordes, fondos para permitir una mejor personalización del proyecto. */
   
 }
 table{
