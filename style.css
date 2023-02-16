@@ -1,33 +1,38 @@
+/* Documentación: */
+
+
+
 @font-face {
     font-family: "title";
     src: url(./fuentes/BebasNeue-Regular.ttf);
 }
 
 .BarraSup{
+
     font-family: "title";
     height: 70px;
     background-color: rgba(18, 68, 161, 0.744);
     color: rgb(37, 26, 26);
     /* las propiedades de colores permiten modificar los colores de textos, bordes, fondos para permitir una mejor personalización del proyecto. */
-  
 }
 
 
 table{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* hay fuentes predeterminadas en el editor de código, por lo que no es necesario estar subiendolas el 100% de las veces */
-    background-image: url(./img/fondo3.jpg);
+    background-image: url(./img/fondo1.jpg);
     background-size: cover;
     z-index: -10;
+    border-radius: 40px;
     
     /* background-repeat: no-repeat; */
-    
-  
+
 }
 
 tr{
     background-color: rgba(23, 25, 28, 0.363) ;
     color: rgba(224, 255, 255, 0.827);
+    
 }
 .contenido{
     background-color: rgb(230, 173, 173);
@@ -38,20 +43,22 @@ tr{
     font-family: "title";
     font-size: 20px;
     font-weight: 300;
-    color:rgba(221, 160, 221, 0.856);
+    color:aquamarine;
 }
 .BarraSup th{
-    border: 2px black solid;
+    
+    border: 2px aquamarine solid;
+
     text-align: center;
     font-size: 40px;
     line-height:20px;
     font-weight:400;
-    color:plum;
+    color:aquamarine;
     /* Las propiedades de fuentes contienen el estilo de la letra (font-family), el tamaño de la letra (font-size), su grosor con (font-weight) */
 }
 
 table, th, td{
-    border: 2px solid black;
+    border: 2px solid aquamarine;
     border-collapse: collapse;
     text-align:center;
 }
@@ -81,5 +88,10 @@ th {
 }
 
 .habilidad1{
-    height: 50px;
+    height: 90px;
+}
+
+.l1{
+    text-align: start;
+    text-indent: 10px;
 }
