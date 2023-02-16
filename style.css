@@ -1,4 +1,18 @@
-/* Documentación: */
+/* Documentación: 
+PROPIEDADES DE:
+
+Fuentes: Las propiedades de fuentes contienen el estilo de la letra (font-family), el tamaño de la letra (font-size), su grosor con (font-weight)- hay fuentes predeterminadas en el editor de código, por lo que no es necesario estar subiendolas el 100% de las veces 
+
+Colores:las propiedades de colores permiten modificar los colores de textos, bordes, fondos para permitir una mejor personalización del proyecto. Se pueden llamar directamente con los nombres tales como (red, blue, white), mediante sus etiquetas  ej. #ff5733  que en este caso es un color muy similar a un rojo. Y mediante el rgb, un ejemplo es RGB 255, 87, 51, que es la combinación del rojo, verde y el azul en ciertas propociones para generar un valor especificado, usando HSL 11, 80%, 60% puedo manejar la saturación del color.   
+
+Bordes: Los bordes se encuentran entre el margin y el padding, esta propiedad primero solicita ser visible, dandole valores de tamaño, color y distribución, sin embargo permite darle diferentes estilos al contendor como un borde curveado, permitiendo que una imagen externa se ajuste al borde.
+
+Rellenos: es lo mismo que padding :)
+
+Background: Las propiedades de fondos permiten editar todo lo que está por detrás. Contiene diferentes propiedades predeterminadas como background-color que permite poner un color en el fondo del contenedor, backgraund-size que permite editar el tamaño del elemento, y una imágen puede estar contenida para llenar el espacio disponible. El border collapse permite decidir si quiero que la imagen de fondo seleccionada esté contenida o no dentro del contenedor padre. 
+
+
+*/
 
 
 
@@ -13,13 +27,13 @@
     height: 70px;
     background-color: rgba(18, 68, 161, 0.744);
     color: rgb(37, 26, 26);
-    /* las propiedades de colores permiten modificar los colores de textos, bordes, fondos para permitir una mejor personalización del proyecto. */
+    /*  */
 }
 
 
 table{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* hay fuentes predeterminadas en el editor de código, por lo que no es necesario estar subiendolas el 100% de las veces */
+    /* */
     background-image: url(./img/fondo1.jpg);
     background-size: cover;
     z-index: -10;
@@ -54,7 +68,7 @@ tr{
     line-height:20px;
     font-weight:400;
     color:aquamarine;
-    /* Las propiedades de fuentes contienen el estilo de la letra (font-family), el tamaño de la letra (font-size), su grosor con (font-weight) */
+    /*  */
 }
 
 table, th, td{
